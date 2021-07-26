@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* ===== style.cssの上書き ===== */
+.container {
+    max-width: 100%;
+    z-index: 999;
+}
+img {
+    max-width: 100%;
+}
+
+/* ===== 機能の実装に必要なCSS ===== */
+
+/* ドロワーナビゲーションの必須スタイル */
+#nav {
+    position: fixed;
+    right: -290px;
+    top: 0;
+    width: 270px;
+    height: 100%;
+}
+
+/* ドロワーが開かれたときのスタイル */
+.show {
+    transform: translate3d(-270px, 0, 0);
+}
+/* 開く・閉じるアニメーション */
+#wrapper, #nav {
+    transition: transform 0.3s;
+}
+/* ===== ヘッダーにボタンを配置 ===== */
+.header {
+    padding: 16px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+header .container div.hamburger {
+    position: fixed;
+}
+.hamburger  {
+    flex: 0 0 32px;
+    align-self: center;
+    padding: 11px 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #FCC800;    
+    cursor: pointer;
+    position: fixed;
+}
+.hamburger img {
+    width: 100%;
+}
+/* ===== 装飾的なCSS ===== */
+
+/* メニュー */
+#nav {
+    padding: 24px 24px 0 24px;
+    background: rgba(0, 0, 170, 80%);
+    color: white;
+}
+#nav ul {
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#nav li a {
+    display: block;
+    padding: 2rem 0;
+    border-bottom: 1px solid #114d60;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background: #FCC800;
+}
+#nav .logo {
+    margin-bottom: 20px;
+}
+.logo {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+/* メインコンテンツ */
+main .container {
+    padding: 0;
+}
+.key {
+    width: 100%;
+}
+.content {
+    padding: 0 30px;
+    text-align: center;
+}
+.archive {
+    margin: 40px 0 0;
+    padding: 0 30px;
+}
+.archive-box {
+    margin: 0 auto;
+    width: 320px;
+}
+@media only screen and (max-width:1260px) {
+    .hamburger {
+        padding: 13px 20px;
+    }
+}
+@media(max-width: 768px) {
+    .archive-box {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+.archive h3 {
+    border-top: 1px dashed #809BA6;
+    border-bottom: 1px dashed #809BA6;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.archive figure {
+    margin: 0 0 2em 0;
+    padding: 0;
+    max-width: 320px;
+}
+.archive figcaption {
+    text-align: center;
+}
+.thumb {
+    max-width: 320px;
+}

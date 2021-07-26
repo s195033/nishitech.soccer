@@ -1,0 +1,1094 @@
+@charset "UTF-8";
+  /* 共通 */
+  body {
+    font-size: 100%;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    background-color: #fff;
+    color: #51321d;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word;
+  }
+  img {
+    display: block;
+  }
+  header {
+    width: 100%;
+    max-height: 70px;
+    background-color: #0000aa;
+    margin-bottom: 0;
+  }
+  header img {
+    margin: 5px 0;
+  }
+  h1 img{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #4d4948;
+  }
+  .top-menu,
+  .top-menu nav ,
+  .top-menu-nav,
+  .second-menu,
+  .second-menu-nav,
+  .contact-content {
+    display: flex;
+  }
+  .top-menu {
+    padding: 0 78px 0 0;
+    justify-content: space-between;
+  }
+  .top-menu-nav {
+    height: 70px;
+    line-height: 50px;
+    padding-left: 150px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .top-images {
+    display: center;
+  }
+   /* forth-menu */
+  .forth-menu .forth-menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px 54px 84px 54px;
+    color: #fff;
+    background-image: url(../images/match.jpg);
+    background-size: 1365px auto;
+    background-position: center;
+  }
+  .forth-menu .forth-menu-content .p-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(204, 204, 204, 0.7);
+    width: 900px;
+  }
+  .forth-menu .forth-menu-content .p-data {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
+  }
+  .forth-menu .forth-menu-content .p-data a {
+    color: #fff;
+  }
+  .forth-menu .forth-menu-content .p-title {
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 13px;
+  }
+  .forth-menu .forth-menu-content .p-title a {
+    color: #fff;
+  }
+  .p-title {
+    display: flex;
+    align-items: baseline;
+    font-family: "Overpass",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #fff;
+  }
+  .forth-menu .forth-menu-content .p-score {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card .p-club:first-of-type {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card .p-score-num {
+    font-family: "Overpass",sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card .p-club {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.4;
+    color: #fff;
+    text-align: left;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card .p-score-num .p-num.p-num--home {
+    text-align: right;
+    color: #0000aa;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card .p-score-num .p-num {
+    width: 100%;
+    min-width: 90px;
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card .p-score-num span {
+    font-size: 2.5rem;
+    margin: 0 33px;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card .p-score-num .p-num.p-num--away {
+    text-align: left;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card-sub {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card-sub .p-score-num .p-num.p-num--home {
+    text-align: right;
+    color: #0000aa;
+  }
+  .forth-menu .forth-menu-content .p-score .p-pk {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card-sub .p-score-num {
+    font-family: "Overpass",sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card-sub .p-score-num .p-num {
+    width: 100%;
+    min-width: 90px;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card-sub .p-score-num span {
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+  .forth-menu .forth-menu-content .p-score .p-card-sub .p-score-num .p-num.p-num--away {
+    text-align: left;
+  }
+  .forth-menu .forth-menu-content .p-day {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* fifth-menu */
+  .fifth-menu {
+    margin-top: 0;
+  }
+  .fifth-menu .p-next-game {
+    background-image: url(../images/next-game.jpeg);
+    background-size: 1365px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+    width: 100%;
+    max-width: 1365px; 
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fifth-menu .p-next-game .p-next-game_header {
+    width: 1365px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .fifth-menu .p-next-game .p-next-game_header .p-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: #0000aa;
+    padding: 7px 230px 8px 290px;
+  }
+  .fifth-menu .p-next-game .p-next-game_header .p-label:after {
+    position: absolute;
+    top: -200%;
+    right: -160px;
+    z-index: -1;
+    content: "";
+    width: 70%;
+    height: 400%;
+    transform: rotate(-60deg);
+    background-color: #0000aa;
+}
+  .fifth-menu .p-next-game .p-next-game_header .p-label span {
+    font-family: "Overpass",sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 1;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+  }
+  .fifth-menu .p-next-game .p-next-game_header .p-game_name {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 12px 180px 12px 36px;
+    font-weight: bold;
+    background-color: rgba(252, 200, 0);
+  }
+  .fifth-menu .p-next-game .p-next-game_header .p-game_name a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .fifth-menu .p-next-game .p-next-game_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(241, 242, 244, 0.7);
+    padding: 16px 20px;
+    width: 1365px;
+    margin: 0;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap {
+    width: 100%;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-game_number {
+    text-align: center;
+    font-size: 1rem;
+    color: #091638;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club:first-of-type {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-vs {
+    font-family: "Overpass",sans-serif;
+    font-weight: 900;
+    font-size: 2.25rem;
+    color: #0000aa;
+    margin: 23px 30px;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club {
+    font-size: 1.5rem;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club {
+    width: 100%;
+    font-weight: 900;
+    color: #091638;
+    line-height: 1.4;
+    padding-top: 30px;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club:first-of-type span {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 45px;
+  }
+  .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club span {
+    display: block;
+    width: 100%;
+    font-family: "Overpass",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 58px;
+  }
+  .fifth-menu .p-next-game .p-next-game_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #FCC800;
+    width: 1365px;
+    font-weight: bold;
+  }
+  .fifth-menu .p-next-game .p-next-game_footer .p-kickoff {
+    padding: 0 15px;
+  }
+  .fifth-menu .p-next-game .p-next-game_footer .p-kickoff span {
+    white-space: nowrap;
+  }
+  .fifht-menu .p-next-game .p-next-game_footer .p-venue {
+    padding: 0 15px;
+  }
+  /* MENU */
+  .second-menu {
+    width: 100%;
+    background-image: url(../images/bg-ranking.jpg);
+    background-size: 1365px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+  }
+  .menu-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  h2.score03 {
+    background: url(../images/iconScore03.gif) no-repeat left bottom;
+    color:#fff;
+    padding: 10px;
+  }
+  h2.score03 a {
+    text-decoration: none;
+    color: #fff;
+  }
+  td {
+    display: table-cell;
+    vertical-align: inherit;
+  }
+  td.name {
+    color: #fff;
+    padding: 2px;
+  }
+  td.name a {
+    text-decoration: none;
+    color: #fff;
+  }
+  h3.now_ranking {
+    color: #fff;
+    padding: 5px;
+  }
+  /*#team_ranking*/
+  #team_ranking .output_contents {
+	  width:900px;
+	  margin: 20px auto;
+  }
+
+  #team_ranking .tournament_name {
+	  border: 3px solid #CCC;
+    font-size: 20px;
+  }
+
+	#team_ranking .tournament_name table.head {
+		width: 100%;
+		border: none;
+	}
+	#team_ranking .tournament_name table.head tr {
+		text-align: center;
+	}
+	#team_ranking .tournament_name table.head td.name {
+		width: 60%;
+		border: none;
+	}
+	#team_ranking .tournament_name table.head td.date {
+		width: 40%;
+		border: none;
+	}
+	#team_ranking table.team_ranking {
+		width: 100%;
+		border-right: none !important;
+		border-left: none !important;
+    padding-bottom: 20px;
+	}
+	#team_ranking table.team_ranking tr.odd {
+		background: #b0c4de;
+	}
+	#team_ranking table.team_ranking tr.even {
+		background: #f9f9f9;
+	}
+	#team_ranking table.team_ranking th {
+		text-align: center;
+		background: #f3f3f3;
+		border-right: none !important;
+		border-left: none !important;
+    padding: 5px;
+	}
+	#team_ranking table.team_ranking td {
+		box-sizing: border-box;
+		border-bottom: dotted 1px #ddd;
+		border-right: none !important;
+		border-left: none !important;
+		padding: 5px 30px 5px 30px;
+	}
+	#team_ranking table.team_ranking td.ranking_rank {
+		text-align: center;
+		width: 6%;
+	}
+	#team_ranking table.team_ranking td.ranking_team {
+		text-align: center;
+		width: 22%;
+	}
+	#team_ranking table.team_ranking td.ranking_value {
+	  text-align: center;
+		width: 8%;
+	}
+  .contact-content img{
+    width: 90%;
+  }
+  nav {
+    width: 100%;
+    margin: 0 20px 10px auto;
+  }
+  .second-menu h2 {
+    text-align: center;
+  }
+  #wrapper{
+    width: 100%;
+    min-height: 100vh;
+  }
+  main {
+    width: 730px;
+     /* float: left;  */
+  }
+  /* MENU-photo */
+  .viewmore {
+    font-size: 14px;
+    display: block;
+    border: 1px solid #0000aa;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px auto 60px auto;
+    text-decoration: none;
+    background-color: #0000aa;
+    color: #fff;
+    font-weight: bold;
+  }
+  /*sixth-menu*/
+  .section:not(.section-hero) {
+    padding: 70px 0;
+  }
+  .sixth-menu .section-content {
+    max-width: 1365px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .sixth-menu .headline {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 30px;
+  }
+  .section-content .headline .headline__title {
+    font-family: 'Spartan', 'Noto Sans JP', sans-serif;
+    font-variant-ligatures: no-common-ligatures;
+    font-feature-settings: "liga" 0, "clig" 0;
+    font-size: 28px;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+  }
+  h5.headline__title {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .sixth-menu .section-content .content {
+    overflow: hidden;
+  }
+  .schedule_day_group {
+    display: flex;
+    position: relative;
+    margin-left: -7px;
+    padding-top: 45px;
+  }
+  .schedule_day_group:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #4d4d4d;
+    z-index: 1;
+  }
+  .schedule_day_item.active {
+    background-color: #fff;
+    border: 1px solid #4d4d4d;
+    border-bottom: 0;
+    z-index: 2;
+  }
+  .schedule_day_item {
+    padding: 20px 0 20px 0;
+    margin: 0 0 0 7px;
+    width: 14.28%;
+    text-align: center;
+    min-width: 1rem;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #fff;
+    background-color: #F5F5F5;
+  }
+  .schedule_day_item .year_mont {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    right: 0;
+    color: #4d4d4d;
+    font-size: 16px;
+    letter-spacing: 0.25rem;
+    text-align: left;
+    font-family: "Spartan", "Noto Sans JP", sans-serif;
+  }
+  .schedule_day_item .year_mont_in {
+    opacity: 0;
+  }
+  .schedule_day_item.active .date {
+    color: #4d4d4d;
+  }
+  .schedule_day_item .date {
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    font-family: "Spartan", "Noto Sans JP", sans-serif;
+  }
+  .schedule_day_item .week {
+    display: inline-block;
+    margin: auto;
+    padding: 0 8px 0 8px;
+    color: #989898;
+    font-size: 10px;
+  }
+  .schedule_day_item.active:hover {
+    cursor: pointer;
+  }
+  .schedule_day_item.disp:hover {
+    cursor: pointer;
+  }
+  .schedule_day_item.active {
+    background-color: #fff;
+    border: 1px solid #4d4d4d;
+    border-bottom: 0;
+    z-index: 2;
+  }
+  .schedule_day_item {
+    padding: 20px 0 20px 0;
+    background-color: #F5F5F5;
+    margin: 0 0 0 7px;
+    width: 14.28%;
+    text-align: center;
+    min-width: 1rem;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #fff;
+  }
+  .list_group_wrap_width {
+    margin-top: 55px;
+  }
+  .sixth-menu .list_card {
+    margin-bottom: 25px;
+    line-height: 1.7;
+  }
+  .sixth-menu .list_card a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sixth-menu .list_card .category {
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 7em;
+  }
+  .sixth-menu .list_card .category {
+    display: inline-block;
+    text-decoration: underline;
+  }
+  .sixth-menu .list_card__meta {
+    width: 20%;
+    text-align: left;
+    margin-left: 8px;
+  }
+  .sixth-menu .list_card .date {
+    font-size: 13px;
+    color: #989898;
+  }
+  .sixth-menu .list_card__title .title {
+    word-break: break-word;
+    line-height: 1.7;
+  }
+  .sixth-menu .list_group_wrap_width .list_group:not(:first-of-type) {
+    display: none;
+  }
+  .sixth-menu .content .more {
+    text-align: right;
+    margin-top: 2em;
+  }
+  .section-content .more a {
+    font-family: "Spartan", "Noto Sans JP", sans-serif;
+    font-variant-ligatures: no-common-ligatures;
+    font-feature-settings: "liga" 0, "clig" 0;
+    font-size: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .schedule_day_item:nth-of-type(n+8) {
+    display: none !important;
+  }
+    /* contact */
+   .menu-content {
+    width: 70%;
+    margin: 0 auto;
+  } 
+  .contact-content {
+    padding-top: 280px;
+    padding-bottom: 180px;
+    justify-content: space-between;
+  }
+  .contact-content-parts {
+    margin: 0;
+  }
+  .contact-content-parts :last-child {
+    margin-left: 0;
+  }
+
+  form {
+    margin: 0;
+    padding: 0;
+  }
+  label {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  input,
+  textarea {
+    border: 1px solid #51321d;
+    display: block;
+    width: 30rem;
+    margin: 0 0 30px 0;
+    padding: 0.5rem;
+  }
+  textarea {
+    min-height: 120px;
+    font-style: normal;
+  }
+  input[type="submit"] {
+    background-color: #51321d;
+    color: #fff;
+  }
+  h2.content-title {
+    padding: 0;
+  }
+  h5.contact-access {
+    padding: 0;
+    font-size: 18px;
+  }
+  .access-content {
+    padding-bottom: 20px;
+  }
+ /* index.html */
+  .bk-white {
+    background-color: #fff;
+  }
+  .bk-dark {
+    background-color: #f0f0f0;
+  }
+  /* footer */
+  footer {
+    height: 200px;
+    text-align: center;
+  }
+  .sns-icon {
+    width: 15%;
+    margin: 0 auto 30px auto;
+    padding: 72px 0 0;
+    justify-content: space-around;
+    display: flex;
+  }
+  @media (max-width: 768px) {
+    body{
+      font-size: 75%;
+    }
+    #wrapper {
+      width: 100%;
+      overflow: hidden;
+    }
+    header {
+      margin-bottom: 0;
+      width: 100%;
+    }
+    header h1 {
+      display: none;
+    }
+    /*forth-menu */ 
+    .forth-menu .forth-menu-content {
+      background-size: 100% 180px;
+      padding: 0;
+    }
+    .forth-menu .forth-menu-content .p-wrap {
+      width: 100%;
+      height: 180px;
+    }
+    .forth-menu .forth-menu-content .p-data {
+      font-size: 1rem;
+    }
+    .forth-menu .forth-menu-content .p-title {
+      font-size: 1rem;
+      margin-top: -30px;
+      margin-bottom: 0;
+    }
+    .forth-menu .forth-menu-content .p-score {
+      margin-top: -40px;
+    }
+    .forth-menu .forth-menu-content .p-score .p-card .p-club {
+      font-size: 1rem;
+      margin-left: -30px;
+      margin-right: -30px;
+    }
+    .forth-menu .forth-menu-content .p-score .p-card .p-score-num {
+      margin: 0 0;
+      padding-top: 0;
+    }
+    .forth-menu .forth-menu-content .p-score .p-card .p-score-num .p-num {
+      font-size: 2rem;
+    }
+    .forth-menu .forth-menu-content .p-score .p-card .p-score-num span {
+      font-size: 2rem;
+      margin: 0 15px;
+    }
+    .forth-menu .forth-menu-content .p-score .p-pk {
+      font-size: 0.75rem;
+      margin-top: -15px;
+      margin-bottom: 0;
+    }
+    .forth-menu .forth-menu-content .p-score .p-card-sub .p-score-num .p-num {
+      font-size: 1rem;
+    }
+    .forth-menu .forth-menu-content .p-score .p-card-sub .p-score-num span {
+      font-size: 1.5rem;
+      margin: -15px 5px;
+    }
+    .forth-menu .forth-menu-content .p-day {
+      font-size: 1rem;
+      margin-bottom: 0;
+      margin-top:-50px;
+    }
+    /* fifth-menu */ 
+    .fifth-menu {
+      max-width: 768px;
+    }
+    .fifth-menu .p-next-game {
+      width: 100%;
+      background-size: 100%;
+    }
+    .fifth-menu .p-next-game .p-next-game_header {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      overflow: hidden;
+    }
+    .fifth-menu .p-next-game .p-next-game_header .p-label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+      background-color: #0000aa;
+      padding: 7px 30px 8px 50px;
+      font-size: 1rem;
+    }
+    .fifth-menu .p-next-game .p-next-game_header .p-label:after {
+      position: absolute;
+      top: -220%;
+      right: -10px;
+      z-index: -1;
+      content: "";
+      width: 70%;
+      height: 400%;
+      transform: rotate(-60deg);
+      background-color: #0000aa;
+    }
+    .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club {
+      font-size: 1.2rem;
+    }
+    .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club span {
+      padding-left: 36px;
+    }
+    
+    .fifth-menu .p-next-game .p-next-game_body .p-wrap .p-card .p-club:first-of-type span {
+      padding-right: 30px;
+    }
+    .fifth-menu .p-next-game .p-next-game_header .p-label span {
+      font-family: "Overpass",sans-serif;
+      font-weight: 900;
+      font-size: 1rem;
+      color: #fff;
+      line-height: 1;
+      white-space: nowrap;
+      position: relative;
+      z-index: 2;
+    }
+    .fifth-menu .p-next-game .p-next-game_header .p-game_name {
+      font-size: 1rem;
+      line-height: 1.4;
+      color: #fff;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      padding: 5px 20px 5px 0;
+      font-weight: bold;
+      background-color: rgba(252, 200, 0);
+    }
+    .fifth-menu .p-next-game .p-next-game_body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(241, 242, 244, 0.7);
+      padding: 16px 20px;
+      width: 100%;
+      margin: 0;
+    }
+    .fifth-menu .p-next-game .p-next-game_footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 5px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #FCC800;
+      width: 100%;
+      font-weight: bold;
+    }
+    /* second-menu */
+    .second-menu {
+      background-size: 100% 450px;
+      margin-top: 0;
+      padding-bottom: 8px;
+    }
+    h3.now_ranking {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    h2.score03 {
+      margin-bottom: 0;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: #000000;
+    }
+    table {
+      text-indent: initial;
+      border-collapse:collapse;
+      border-spacing:0;
+      font-size:100%;
+    }
+    table, table.none table {
+      border-top: 1px solid #CCC;
+      border-left: 1px solid #CCC;
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+    table tr th {
+      font-weight: bold;
+    }
+    table td, table th, table.none table td, table.none table th {
+      empty-cells: show;
+      word-break: break-all;
+      padding: 0.3em;
+    }
+    .menu-content {
+      width: 100%;
+    }
+    .menu-content nav {
+      width: 80%;
+      margin: 0 auto 10px auto;
+    }
+    #team_ranking .output_contents {
+      width: 98%;
+      margin: 0 5px 0 5px;
+    }
+    
+      #team_ranking .tournament_name {
+        padding: 1px;
+        border: 3px solid #ffffff;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    
+        #team_ranking .tournament_name table.head {
+          width: 100%;
+          border: none;
+        }
+    
+          #team_ranking .tournament_name table.head tr {
+            text-align: center;
+          }
+          #team_ranking .tournament_name table.head td.name {
+            width: 60%;
+            border: none;
+            color: #000000;
+            font-size: 16px;
+          }
+          #team_ranking .tournament_name table.head td.date {
+            width: 40%;
+            border: none;
+          }
+    
+      #team_ranking table.team_ranking {
+        width: 100%;
+        margin-top: 0;
+        border-left: none !important;
+        border-right: none !important;
+      }
+    
+        #team_ranking table.team_ranking tr.odd {
+          background: #fff;
+        }
+        #team_ranking table.team_ranking tr.even {
+          background: #fff;
+        }
+        #team_ranking table.team_ranking th {
+          text-align: center;
+          background: #CCC;
+          border-right: none !important;
+          border-left: none !important;
+          font-size: 86%;
+          padding-left: 3px;
+          padding-right: 3px;
+        }
+        #team_ranking table.team_ranking td {
+          box-sizing: border-box;
+          border-bottom: dotted 1px #ddd;
+          border-right: none !important;
+          border-left: none !important;
+          padding: 3px 0 3px 0;
+          font-size: 86%;
+        }
+        #team_ranking table.team_ranking td.ranking_rank {
+          text-align: center;
+          width: 7%;
+        }
+        #team_ranking table.team_ranking td.ranking_team {
+          text-align: center;
+          width: 20%;
+        }
+        #team_ranking table.team_ranking td.ranking_value {
+          text-align: center;
+          width: 9%;
+        }
+        td.name a {
+          font-size: 1rem;
+        }
+        .viewmore {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 10px;
+          line-height: 30px;
+          height: 30px;
+          width: 100px;
+        }
+      /* sixth-menu */
+      .sixth-menu .section-content {
+        width: 100%;
+        padding: 0 0;
+      }
+      .sixth-menu .list_card {
+        line-height: 1.5;
+        margin-bottom: 15px;
+      }
+      .schedule_day_item {
+        padding: 0 0 0 0;
+      }
+      .schedule_day_item .date {
+        font-size: 18px;
+      }
+      .schedule_day_item .year_mont_in {
+        font-size: 10px;
+      }
+      .sixth-menu .headline {
+        margin-bottom: 0;
+      }
+      .sixth-menu .list_card .category {
+        font-size: 10px;
+      } 
+      .sixth-menu .list_card .date {
+        font-size: 10px;
+      }
+      .sixth-menu .list_card .category {
+        width: 6em;
+      }
+      .sixth-menu .list_card__meta {
+        width: 35%;
+        text-align: left;
+      }
+      .section-content .headline .headline__title {
+        font-size: 18px;
+      }
+      .sixth-menu .content .more {
+        margin-top: 1em;
+      }
+      /* contact-content */
+      .contact-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .contact-content-parts {
+        padding-left: 20px;
+        display: flex;
+      }
+      .text {
+        display: block;
+        padding-right: 5px;
+      }
+      .map {
+        padding-right: 20px;
+      }
+      .contact-content-parts iframe {
+        width: 260px;
+        height: 195px;
+      }
+      .contact-content-forms {
+        display: none;
+      }
+      h2.content-title {
+        padding-bottom: 8px;
+        display: none;
+      }
+      h5.contact-access {
+        padding-bottom: 8px;
+        font-size: 12px;
+      }
+      input, textarea {
+        border: 1px solid #51321d;
+        display: block;
+        width: 20rem;
+        margin: 0 0 10px 0;
+        padding: 0.5rem;
+    }
+
+    footer {
+      height: 100px;
+    }
+    .sns-icon {
+      margin: 0 auto 15px auto;
+      padding-top: 36px;
+    }
+  }
